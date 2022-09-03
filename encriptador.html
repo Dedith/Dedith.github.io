@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="encriptador_style2.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <img  class="imagen-logo" src="Imagenes/Vector.png" alt="Logo Alura" >
+        </header>
+        <main>
+            <section>
+                <div>
+                    <textarea id="box-input" cols="40" rows="6" placeholder="Ingrese el texto aqui" required></textarea>
+                    <textarea id="box-text" cols="20" rows="6" placeholder="Ningun mensaje fue encontrado."></textarea>
+                    <img id="imagen-muneco" src="Imagenes/Muñeco.png" alt="Imagen ilustrativa" >
+                </div>
+                <div>
+                    <p class="note">&#33;Solo letras minusculas y sin acentos.</p>
+                    <button id="encriptar" onclick="clickEncriptar()">Encriptar</button>
+                    <button id="desencriptar" onclick="clickDesencriptar()">Desencriptar</button>
+                    <button id="copy" onclick="clickCopy()" style="display:none;" >Copiar</button>
+                </div>
+            </section>
+            <section>
+                <h1>Instrucciones</h1>
+
+                <div class="instructions">
+                    <ul>Encriptacion:
+                        <li>Ingresa el texto a encriptar en el primer apartado.</li>
+                        <li>Da clic en el boton Encriptar.</li>
+                        <li>Obten tu texto encriptado en el segundo apartado!!</li></ul>
+                    <ul>Desencritacion:
+                        <li>Ingresa el texto encriptado en el primer apartardo.</li>
+                        <li>Da clic en el boton Desencriptar.</li>
+                        <li>Obten tu texto desencriptado en el segundo apartado!!</li></ul>
+                </div>
+            </section>
+            
+
+
+        </main>
+        <script src="encriptador.js"></script>
+        
+    </body>
+  
+    
+
+
+
+   
+
+</html>
