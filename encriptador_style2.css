@@ -1,0 +1,152 @@
+body{
+    background: linear-gradient(#f6f4f7 75%, #0A3871);
+}
+.imagen-logo {
+    position: absolute;
+    left: calc(11%);
+    top: calc(6%);
+    bottom: calc(0%);
+    width: calc(2%);
+    height: calc(3.3%);
+}
+#box-input{
+    position: absolute;
+    width: calc(40%);
+    height: calc(40%);
+    left:calc(18%);
+    top: calc(11%);
+    border-color: #f6f4f7;
+    background: #f6f4f7;
+    font-size: 2em;
+    padding: 2rem;
+}
+#box-text{
+    position: absolute;
+    width: calc(22%);
+    height: calc(55%);
+    left: calc(68%);
+    top: calc(8%);
+    background: white;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    font-size: 2rem;
+    padding: 2rem;
+}
+#imagen-muneco{
+    position: absolute;
+    left: calc(70%);
+    top: calc(21%);
+    width: calc(18%);
+    height: calc(17%);
+}
+.note{
+    position: absolute;
+    left: calc(19%);
+    top: calc(53%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+#encriptar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    gap: 8px;
+    width: calc(19%);
+    height: calc(4%);
+    background: #0A3871;
+    border-radius: 24px;
+    position: absolute;
+    left: calc(18%);
+    top: calc(55%);
+    color: white;
+    font-size: 1.5em;
+}
+#encriptar:hover{
+    font-size: 1.75em;
+    border: 1.2em;
+}
+#desencriptar{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: calc(19%);
+    height: calc(4%);
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: calc(41%);
+    top: calc(55%);
+    text-align: center;
+    font-size: 1.5em;
+}
+#desencriptar:hover{
+    font-size: 1.75em;
+    border: 1.2em;
+}
+#copy{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: calc(19%);
+    height: calc(4%);
+    background: white;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: calc(69.5%);
+    top: calc(55%);
+    text-align: center;
+    font-size: 1.5em;
+    transition: 3s background;
+}
+#copy:hover{
+    font-size: 1.75em;
+    border: 1.2em;
+    background: darkgreen;
+}
+
+h1{
+    position: absolute;
+    left: calc(15%);
+    top: calc(77%);
+    font-size: 2em;
+    font-weight: bold;
+}
+.instructions{
+    line-height: 1.5;
+    font-size: 1.5em;
+    position: absolute;
+    left: calc(30%);
+    top: calc(80%); 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-right: 1.5em;
+    margin-right: 5%;
+}
+ul::first-line{
+    font-weight: bold;
+}
+li::before{
+    content: "\2726";
+}
